@@ -15,8 +15,8 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
 {
     protected $_items = [
         'goals' => [
-            'phpunit'          => 'hidev\codeception\goals\PhpunitGoal',
-            'phpunit.xml.dist' => 'hidev\codeception\goals\PhpunitXmlGoal',
+            'phpunit'          => 'hidev\phpunit\goals\PhpunitGoal',
+            'phpunit.xml.dist' => 'hidev\phpunit\goals\PhpunitXmlGoal',
             'install'          => [
                 'require' => [
                     'phpunit/phpunit' => '^4.8',
