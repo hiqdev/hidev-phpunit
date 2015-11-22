@@ -44,8 +44,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "hidev\\phpunit\\": "src",
-            "hidev\\codeception\\": "src"
+            "hidev\\phpunit\\": "src"
         }
     }
 }
