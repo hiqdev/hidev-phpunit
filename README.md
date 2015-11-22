@@ -11,9 +11,10 @@ This plugin enables [PHPUnit](https://phpunit.de/) support for HiDev.
 
 Provides usual PHPUnit operations:
 - generating phpunit.xml.dist
-- generating basic unit tests (in progress)
 - running tests
 - tries to create your tests compatible with Codeception
+- generating skeleton tests with [phpunit-skeleton-generator](https://github.com/sebastianbergmann/phpunit-skeleton-generator) (in progress)
+- coverage report (in progress)
 
 ## Installation
 

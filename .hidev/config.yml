@@ -12,13 +12,16 @@ package:
 
         Provides usual PHPUnit operations:
         - generating phpunit.xml.dist
-        - generating basic unit tests (in progress)
         - running tests
         - tries to create your tests compatible with Codeception
+        - generating skeleton tests with [phpunit-skeleton-generator](https://github.com/sebastianbergmann/phpunit-skeleton-generator) (in progress)
+        - coverage report (in progress)
 
 require:
     hiqdev/hidev-php:           "*@dev"
     hiqdev/hidev-hiqdev:        "*@dev"
+    hiqdev/hidev-license:       "*@dev"
+    hiqdev/hidev-phpunit:       "*@dev"
     hiqdev/hidev-travis-ci:     "*@dev"
     hiqdev/hidev-codeception:   "*@dev"
     hiqdev/hidev-php-cs-fixer:  "*@dev"
