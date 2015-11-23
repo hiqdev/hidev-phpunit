@@ -17,12 +17,10 @@ namespace hidev\phpunit\goals;
  * For the moment done with template.
  * TODO redo with xml loading/saving.
  */
-class PhpunitXmlGoal extends \hidev\goals\TemplateGoal
+class PhpunitXmlGoal extends \hidev\goals\FileGoal
 {
-    protected $_fileType = 'xml';
-
-    public function actionSave()
-    {
-        d($this);
-    }
+    protected $_file = [
+        'type'    => 'xml',
+        'minimal' => '@hidev/phpunit/minimal.xml.dist',
+    ];
 }
