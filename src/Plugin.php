@@ -19,7 +19,12 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
             'phpunit.xml.dist' => 'hidev\phpunit\goals\PhpunitXmlGoal',
             'install'          => [
                 'require' => [
-                    'phpunit/phpunit' => '^4.8',
+                    'phpunit/phpunit'                    => '^4.8',
+                    'phpunit/phpunit-skeleton-generator' => '*',
+                ],
+                'bin' => [
+                    'phpunit'           => 'phpunit/phpunit',
+                    'phpunit-skelgen'   => 'phpunit/phpunit-skeleton-generator',
                 ],
             ],
         ],
