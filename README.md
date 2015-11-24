@@ -5,6 +5,7 @@ HiDev PHPUnit
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-phpunit/v/stable)](//packagist.org/packages/hiqdev/hidev-phpunit)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-phpunit/downloads)](//packagist.org/packages/hiqdev/hidev-phpunit)
+[![Build Status](https://img.shields.io/travis/hiqdev/hidev-phpunit.svg)](http://travis-ci.org/hiqdev/hidev-phpunit)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 This plugin enables [PHPUnit](https://phpunit.de/) support for HiDev.
