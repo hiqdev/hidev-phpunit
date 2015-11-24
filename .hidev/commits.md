@@ -3,6 +3,8 @@ hiqdev/hidev-phpunit commits history
 
 ## Under development
 
+- Added Travis CI integration
+    - 0b19bc2 2015-11-24 + Travis CI badge (sol@hiqdev.com)
 
 ## 0.0.1 2015-11-24
 
