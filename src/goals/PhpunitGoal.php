@@ -31,6 +31,11 @@ class PhpunitGoal extends \hidev\goals\DefaultGoal
         return array_merge(parent::options($action), ['force', 'coverageText', 'coverageClover']);
     }
 
+    public function getConfiguration()
+    {
+        return $this->config->get($this->configFile);
+    }
+
     public function actionMake()
     {
         return $this->actionRun();
@@ -106,14 +111,14 @@ class PhpunitGoal extends \hidev\goals\DefaultGoal
         return $this->buildClass($file, $dir);
     }
 
-    public function buildPath($file, $dir = 'src', $prefix = '', $postfix = 'Test')
+    public function buildPath($file, $dir = 'src', $prefix = '', $postfix = '')
     {
         return $dir . DIRECTORY_SEPARATOR . $prefix . $file . $postfix . '.php';
     }
 
-    public function buildTestPath($file, $dir = 'tests/unit')
+    public function buildTestPath($file, $dir = 'tests/unit', $prefix = '', $postfix = 'Test')
     {
-        return $this->buildPath($file, $dir);
+        return $this->buildPath($file, $dir, $prefix, $postfix);
     }
 
     public function buildFakePath($file, $dir = 'tests/unit', $prefix = 'Fake', $postfix = '')
