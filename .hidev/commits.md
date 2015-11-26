@@ -3,7 +3,11 @@ hiqdev/hidev-phpunit commits history
 
 ## Under development
 
+
+## 0.0.2 2015-11-26
+
 - Added coverage reporting
+    - 28f04bb 2015-11-26 disabled error reporting for notices (sol@hiqdev.com)
     - 095bc76 2015-11-26 added more tests (sol@hiqdev.com)
     - 81ecd38 2015-11-26 fixed `Phpunit::buildPath` (sol@hiqdev.com)
     - 4fe5881 2015-11-26 + coverage reporting (sol@hiqdev.com)
