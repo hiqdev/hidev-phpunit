@@ -3,6 +3,10 @@ hiqdev/hidev-phpunit commits history
 
 ## Under development
 
+- Added coverage reporting
+    - 4fe5881 2015-11-26 + coverage reporting (sol@hiqdev.com)
+- Added `gentest` and `genfake` actions
+    - a417690 2015-11-26 + `gentest` and `genfake` actions (sol@hiqdev.com)
 - Added Travis CI integration
     - 629dd9a 2015-11-24 fixed tests (sol@hiqdev.com)
     - 0b19bc2 2015-11-24 + Travis CI badge (sol@hiqdev.com)
