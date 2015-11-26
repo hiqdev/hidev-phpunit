@@ -28,5 +28,8 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
                 ],
             ],
         ],
+        'views' => [
+            '@hidev/phpunit/views',
+        ],
     ];
 }
