@@ -28,7 +28,7 @@ class PhpunitGoal extends \hidev\goals\DefaultGoal
 
     public function options($action)
     {
-        return array_merge(parent::options($action), ['force']);
+        return array_merge(parent::options($action), ['force', 'coverageText', 'coverageClover']);
     }
 
     public function actionMake()
@@ -38,7 +38,14 @@ class PhpunitGoal extends \hidev\goals\DefaultGoal
 
     public function actionRun()
     {
-        return $this->passthru('phpunit');
+        $args = [];
+        if ($this->coverageText) {
+            $args[] = '--coverage-text';
+        }
+        if ($this->coverageClover) {
+            $args[] = '--coverage-clover=' . (is_string($this->coverageClover) ? $this->coverageClover : 'coverage.clover');
+        }
+        return $this->passthru('phpunit', $args);
     }
 
     public function actionGenfake($file)
