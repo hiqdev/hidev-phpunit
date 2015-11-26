@@ -9,7 +9,7 @@
  * @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
  */
 
-error_reporting(-1);
+error_reporting(E_ALL & ~E_NOTICE);
 
 define('YII_ENABLE_ERROR_HANDLER', false);
 define('YII_DEBUG', true);
