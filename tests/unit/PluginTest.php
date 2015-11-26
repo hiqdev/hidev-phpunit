@@ -11,6 +11,8 @@
 
 namespace hidev\php\tests\unit;
 
+use hidev\phpunit\goals\PhpunitGoal;
+use hidev\phpunit\goals\PhpunitXmlGoal;
 use hidev\phpunit\Plugin;
 
 /**
@@ -43,5 +45,7 @@ class PluginTest extends \PHPUnit_Framework_TestCase
     public function testConstructor()
     {
         $this->assertTrue(is_object($this->object));
+        $this->assertSame(PhpunitGoal::className(), $this->object->goals['phpunit']);
+        $this->assertSame(PhpunitXmlGoal::className(), $this->object->goals['phpunit.xml.dist']);
     }
 }

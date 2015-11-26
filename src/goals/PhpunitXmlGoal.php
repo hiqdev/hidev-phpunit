@@ -13,9 +13,6 @@ namespace hidev\phpunit\goals;
 
 /**
  * Goal for phpunit.xml.dist config file.
- *
- * For the moment done with template.
- * TODO redo with xml loading/saving.
  */
 class PhpunitXmlGoal extends \hidev\goals\FileGoal
 {

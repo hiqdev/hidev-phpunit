@@ -11,8 +11,8 @@
 
 namespace hidev\phpunit\goals;
 
-use Yii;
 use hidev\handlers\BaseHandler;
+use Yii;
 
 /**
  * Goal for Phpunit.
@@ -87,7 +87,7 @@ class PhpunitGoal extends \hidev\goals\DefaultGoal
     {
         return $this->passthru('phpunit-skelgen', [
             'generate-test', '--bootstrap', 'tests/_bootstrap.php', '--',
-            $this->buildClass($file), $this->buildPath($file), $this->buildTestClass($file), $this->buildTestPath($file)
+            $this->buildClass($file), $this->buildPath($file), $this->buildTestClass($file), $this->buildTestPath($file),
         ]);
     }
 
