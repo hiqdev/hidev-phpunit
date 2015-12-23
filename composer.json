@@ -43,6 +43,7 @@
         }
     ],
     "require-dev": {
+        "hiqdev/hidev": "*@dev",
         "hiqdev/yii2-collection": "*"
     },
     "autoload": {
