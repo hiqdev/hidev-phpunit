@@ -3,6 +3,11 @@ hiqdev/hidev-phpunit commits history
 
 ## Under development
 
+
+## 0.2.0 2015-12-23
+
+- Added Travis `after_script` to upload coverage to Scrutinizer
+    - 1ee87b5 2015-12-23 + Travis `after_script` to upload coverage to Scrutinizer (sol@hiqdev.com)
 - Added `colors` config option
     - 3c2d32c 2015-12-23 fixed build (sol@hiqdev.com)
     - 89d02a8 2015-12-23 + colors config option (sol@hiqdev.com)

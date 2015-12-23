@@ -3,6 +3,10 @@ hiqdev/hidev-phpunit changelog
 
 ## Under development
 
+
+## 0.2.0 2015-12-23
+
+- Added Travis `after_script` to upload coverage to Scrutinizer
 - Added `colors` config option
 
 ## 0.0.2 2015-11-26
