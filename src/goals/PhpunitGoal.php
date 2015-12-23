@@ -50,6 +50,10 @@ class PhpunitGoal extends \hidev\goals\DefaultGoal
         if ($this->coverageClover) {
             $args[] = '--coverage-clover=' . (is_string($this->coverageClover) ? $this->coverageClover : 'coverage.clover');
         }
+        if ($this->colors) {
+            $args[] = '--colors=' . $this->colors;
+        }
+
         return $this->passthru('phpunit', $args);
     }
 
@@ -60,6 +64,7 @@ class PhpunitGoal extends \hidev\goals\DefaultGoal
             Yii::warning("already exists: $path");
             return 1;
         }
+
         return $this->genFake($file, $path);
     }
 
@@ -80,6 +85,7 @@ class PhpunitGoal extends \hidev\goals\DefaultGoal
             Yii::warning("already exists: $path");
             return 1;
         }
+
         return $this->genSkel($file);
     }
 
