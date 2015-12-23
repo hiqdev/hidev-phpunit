@@ -3,6 +3,7 @@ hiqdev/hidev-phpunit changelog
 
 ## Under development
 
+- Added `colors` config option
 
 ## 0.0.2 2015-11-26
 
