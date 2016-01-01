@@ -11,9 +11,9 @@
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
-        "source": "https://github.com/hiqdev/hidev-codeception",
-        "issues": "https://github.com/hiqdev/hidev-codeception/issues",
-        "wiki": "https://github.com/hiqdev/hidev-codeception/wiki",
+        "source": "https://github.com/hiqdev/hidev-phpunit",
+        "issues": "https://github.com/hiqdev/hidev-phpunit/issues",
+        "wiki": "https://github.com/hiqdev/hidev-phpunit/wiki",
         "forum": "http://forum.hiqdev.com/"
     },
     "authors": [
