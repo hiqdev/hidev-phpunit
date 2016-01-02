@@ -22,8 +22,8 @@ Thumbs.db
 # phpunit generated files
 coverage.clover
 
-# Codeception generated files
-tests/_support/_generated
-
 # php-cs-fixer cache
 .php_cs.cache
+
+# Codeception generated files
+tests/_support/_generated
