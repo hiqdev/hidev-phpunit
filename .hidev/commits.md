@@ -3,6 +3,7 @@ hiqdev/hidev-phpunit commits history
 
 ## Under development
 
+    - e8155d7 2016-01-02 php-cs-fixed (sol@hiqdev.com)
 
 ## 0.2.0 2015-12-23
 
