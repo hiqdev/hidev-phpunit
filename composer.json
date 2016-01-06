@@ -50,5 +50,8 @@
         "psr-4": {
             "hidev\\phpunit\\": "src"
         }
+    },
+    "extra": {
+        "yii2-extraconfig": "src/yii2-extraconfig.php"
     }
 }
