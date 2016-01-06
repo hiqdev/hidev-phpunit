@@ -11,22 +11,26 @@
 
 return [
     'components' =>  [
-        'goals' => [
-            'phpunit'          => 'hidev\phpunit\goals\PhpunitGoal',
-            'phpunit.xml.dist' => 'hidev\phpunit\goals\PhpunitXmlGoal',
-        ],
-        'binaries' => [
+        'config' => [
             'phpunit' => [
-                'package' => 'phpunit/phpunit',
-                'version' => '^4.8',
+                'class' => 'hidev\phpunit\goals\PhpunitGoal',
             ],
-            'phpunit-skelgen' => [
-                'package' => 'phpunit/phpunit-skeleton-generator',
-                'version' => '*',
+            'phpunit.xml.dist' => [
+                'class' => 'hidev\phpunit\goals\PhpunitXmlGoal',
             ],
-        ],
-        'views' => [
-            '@hidev/phpunit/views',
+            'views' => [
+                '@hidev/phpunit/views',
+            ],
+            'binaries' => [
+                'phpunit' => [
+                    'package' => 'phpunit/phpunit',
+                    'version' => '^4.8',
+                ],
+                'phpunit-skelgen' => [
+                    'package' => 'phpunit/phpunit-skeleton-generator',
+                    'version' => '*',
+                ],
+            ],
         ],
     ],
 ];
