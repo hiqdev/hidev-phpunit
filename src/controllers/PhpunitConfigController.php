@@ -14,9 +14,10 @@ namespace hidev\phpunit\goals;
 /**
  * Goal for phpunit.xml.dist config file.
  */
-class PhpunitXmlGoal extends \hidev\goals\FileGoal
+class PhpunitConfigController extends \hidev\goals\FileController
 {
     protected $_file = [
+        'file'    => 'phpunit.xml.dist',
         'type'    => 'xml',
         'minimal' => '@hidev/phpunit/minimal.xml.dist',
     ];

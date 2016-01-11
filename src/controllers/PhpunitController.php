@@ -17,15 +17,8 @@ use Yii;
 /**
  * Goal for Phpunit.
  */
-class PhpunitGoal extends \hidev\goals\DefaultGoal
+class PhpunitGoal extends \hidev\controller\CommonController
 {
-    public $configFile = 'phpunit.xml.dist';
-
-    public function init()
-    {
-        $this->setDeps($this->configFile);
-    }
-
     public function options($action)
     {
         return array_merge(parent::options($action), ['force', 'coverageText', 'coverageClover']);
@@ -33,7 +26,7 @@ class PhpunitGoal extends \hidev\goals\DefaultGoal
 
     public function getConfiguration()
     {
-        return $this->config->get($this->configFile);
+        return $this->getGoal('phpunit-config');
     }
 
     public function actionMake()

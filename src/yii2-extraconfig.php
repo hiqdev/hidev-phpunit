@@ -10,14 +10,20 @@
  */
 
 return [
+    'controllerMap' => [
+        'phpunit' => [
+            'class' => 'hidev\phpunit\controllers\PhpunitController',
+            'deps'  => 'phpunit-config',
+        ],
+        'phpunit-config' => [
+            'class' => 'hidev\phpunit\controllers\PhpunitConfigController',
+        ],
+        'phpunit.xml.dist' => [
+            'class' => 'hidev\phpunit\controllers\PhpunitConfigController',
+        ],
+    ],
     'components' =>  [
         'config' => [
-            'phpunit' => [
-                'class' => 'hidev\phpunit\goals\PhpunitGoal',
-            ],
-            'phpunit.xml.dist' => [
-                'class' => 'hidev\phpunit\goals\PhpunitXmlGoal',
-            ],
             'views' => [
                 '@hidev/phpunit/views',
             ],
