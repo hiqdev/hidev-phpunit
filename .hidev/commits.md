@@ -3,6 +3,13 @@ hiqdev/hidev-phpunit commits history
 
 ## Under development
 
+- Changed: redone goals -> controllers
+    - d1e3305 2016-01-14 change hidev-travis-ci -> hidev-travis (sol@hiqdev.com)
+    - 0a8889a 2016-01-14 still fixing (sol@hiqdev.com)
+    - d7e0670 2016-01-11 redoing goals to controllers (sol@hiqdev.com)
+- Changed: redone with yii2-extraconfig
+    - a840c18 2016-01-06 changed config structure (sol@hiqdev.com)
+    - c43f9e2 2016-01-06 redoing with yii2-extraconfig (sol@hiqdev.com)
     - e8155d7 2016-01-02 php-cs-fixed (sol@hiqdev.com)
 
 ## 0.2.0 2015-12-23
