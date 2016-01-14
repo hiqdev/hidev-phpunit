@@ -10,22 +10,13 @@
  */
 
 return [
-    'controllerMap' => [
-        'phpunit' => [
-            'class' => 'hidev\phpunit\controllers\PhpunitController',
-            'deps'  => 'phpunit-config',
-        ],
-        'phpunit-config' => [
-            'class' => 'hidev\phpunit\controllers\PhpunitConfigController',
-        ],
-        'phpunit.xml.dist' => [
-            'class' => 'hidev\phpunit\controllers\PhpunitConfigController',
-        ],
-    ],
     'components' =>  [
         'config' => [
-            'views' => [
-                '@hidev/phpunit/views',
+            'phpunit' => [
+                'class' => 'hidev\phpunit\controllers\PhpunitController',
+            ],
+            'phpunit.xml.dist' => [
+                'class' => 'hidev\phpunit\controllers\PhpunitConfigController',
             ],
             'binaries' => [
                 'phpunit' => [
@@ -36,6 +27,9 @@ return [
                     'package' => 'phpunit/phpunit-skeleton-generator',
                     'version' => '*',
                 ],
+            ],
+            'views' => [
+                '@hidev/phpunit/views',
             ],
         ],
     ],

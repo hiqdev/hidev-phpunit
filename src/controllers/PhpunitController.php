@@ -9,7 +9,7 @@
  * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\phpunit\goals;
+namespace hidev\phpunit\controllers;
 
 use hidev\handlers\BaseHandler;
 use Yii;
@@ -17,16 +17,18 @@ use Yii;
 /**
  * Goal for Phpunit.
  */
-class PhpunitGoal extends \hidev\controller\CommonController
+class PhpunitController extends \hidev\controllers\CommonController
 {
-    public function options($action)
-    {
-        return array_merge(parent::options($action), ['force', 'coverageText', 'coverageClover']);
-    }
+    protected $_before = ['phpunit.xml.dist'];
+
+    public $force;
+    public $colors;
+    public $coverageText;
+    public $coverageClover;
 
     public function getConfiguration()
     {
-        return $this->getGoal('phpunit-config');
+        return $this->getGoal('phpunit.xml.dist');
     }
 
     public function actionMake()

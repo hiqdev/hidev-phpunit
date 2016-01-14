@@ -9,15 +9,15 @@
  * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\phpunit\goals;
+namespace hidev\phpunit\controllers;
 
 /**
  * Goal for phpunit.xml.dist config file.
  */
-class PhpunitConfigController extends \hidev\goals\FileController
+class PhpunitConfigController extends \hidev\controllers\FileController
 {
     protected $_file = [
-        'file'    => 'phpunit.xml.dist',
+        'path'    => 'phpunit.xml.dist',
         'type'    => 'xml',
         'minimal' => '@hidev/phpunit/minimal.xml.dist',
     ];
