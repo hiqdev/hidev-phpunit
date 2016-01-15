@@ -3,6 +3,9 @@ hiqdev/hidev-phpunit changelog
 
 ## Under development
 
+- Added proper color option by checking version
+- Fixed tests
+- Added phpunit download link
 - Changed: redone goals -> controllers
 - Changed: redone with yii2-extraconfig
 
