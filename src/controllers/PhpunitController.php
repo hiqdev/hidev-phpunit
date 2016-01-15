@@ -48,7 +48,7 @@ class PhpunitController extends \hidev\controllers\CommonController
             $args[] = '--coverage-clover=' . (is_string($this->coverageClover) ? $this->coverageClover : 'coverage.clover');
         }
         if ($this->colors) {
-            $args[] = '--colors' . (version_compare($this->getVersion(),'4.7.0', '>=') ? '=' . $this->colors : '');
+            $args[] = '--colors' . (version_compare($this->getVersion(), '4.7.0', '>=') ? '=' . $this->colors : '');
         }
 
         return $this->passthru('phpunit', $args);
