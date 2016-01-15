@@ -20,12 +20,9 @@ return [
             ],
             'binaries' => [
                 'phpunit' => [
-                    'package' => 'phpunit/phpunit',
-                    'version' => '^4.8',
-                ],
-                'phpunit-skelgen' => [
-                    'package' => 'phpunit/phpunit-skeleton-generator',
-                    'version' => '*',
+                    'package'  => 'phpunit/phpunit',
+                    'version'  => '^4.8',
+                    'download' => 'https://phar.phpunit.de/phpunit-old.phar',
                 ],
             ],
             'views' => [
