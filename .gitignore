@@ -27,7 +27,6 @@ coverage.clover
 
 # PHARs
 phpunit.phar
-phpunit-skelgen.phar
 php-cs-fixer.phar
 composer.phar
 
