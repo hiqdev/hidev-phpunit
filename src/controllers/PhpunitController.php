@@ -21,6 +21,8 @@ class PhpunitController extends \hidev\controllers\CommonController
 {
     protected $_before = ['phpunit.xml.dist'];
 
+    protected $_version;
+
     public $force;
     public $colors;
     public $coverageText;
@@ -46,10 +48,21 @@ class PhpunitController extends \hidev\controllers\CommonController
             $args[] = '--coverage-clover=' . (is_string($this->coverageClover) ? $this->coverageClover : 'coverage.clover');
         }
         if ($this->colors) {
-            $args[] = '--colors=' . $this->colors;
+            $args[] = '--colors' . (version_compare($this->getVersion(),'4.7.0', '>=') ? '=' . $this->colors : '');
         }
 
         return $this->passthru('phpunit', $args);
+    }
+
+    public function getVersion()
+    {
+        if ($this->_version === null) {
+            $lines = $this->exec('phpunit', ['--version']);
+            $a = explode(' ', $lines[0], 3)[1];
+            $this->_version = $a;
+        }
+
+        return $this->_version;
     }
 
     public function actionGenfake($file)
