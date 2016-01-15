@@ -3,6 +3,7 @@ hiqdev/hidev-phpunit commits history
 
 ## Under development
 
+    - 5f809fb 2016-01-15 + phpunit download link (sol@hiqdev.com)
 - Changed: redone goals -> controllers
     - d1e3305 2016-01-14 change hidev-travis-ci -> hidev-travis (sol@hiqdev.com)
     - 0a8889a 2016-01-14 still fixing (sol@hiqdev.com)
