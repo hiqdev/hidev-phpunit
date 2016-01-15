@@ -1,7 +1,7 @@
 hiqdev/hidev-phpunit changelog
 ------------------------------
 
-## Under development
+## 0.3.0 2016-01-15
 
 - Added proper color option by checking version
 - Fixed tests

@@ -26,8 +26,8 @@ composer.lock
 coverage.clover
 
 # PHARs
-phpunit.phar
 php-cs-fixer.phar
+phpunit.phar
 composer.phar
 
 # Codeception generated files

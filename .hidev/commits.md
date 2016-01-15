@@ -1,7 +1,7 @@
 hiqdev/hidev-phpunit commits history
 ------------------------------------
 
-## Under development
+## 0.3.0 2016-01-15
 
 - Added proper color option by checking version
     - 3364abe 2016-01-15 + proper color option by checking version (sol@hiqdev.com)
