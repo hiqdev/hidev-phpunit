@@ -9,17 +9,17 @@ HiDev PHPUnit
 [![Code Coverage](https://scrutinizer-ci.com/g/hiqdev/hidev-phpunit/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-phpunit/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hiqdev/hidev-phpunit/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-phpunit/?branch=master)
 
-[HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+[HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuous integration.
 
 This plugin enables [PHPUnit](https://phpunit.de/) support for HiDev.
 
 Provides usual PHPUnit operations:
 
-- generating phpunit.xml.dist
+- generating phpunit.xml.dist and tests/_bootstrap.php
 - running tests
 - tries to create your tests compatible with Codeception
+- enables coverage report
 - generating skeleton tests with [phpunit-skeleton-generator](https://github.com/sebastianbergmann/phpunit-skeleton-generator) (in progress)
-- coverage report (in progress)
 
 ## Installation
 
