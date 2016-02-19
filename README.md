@@ -14,6 +14,7 @@ HiDev PHPUnit
 This plugin enables [PHPUnit](https://phpunit.de/) support for HiDev.
 
 Provides usual PHPUnit operations:
+
 - generating phpunit.xml.dist
 - running tests
 - tries to create your tests compatible with Codeception

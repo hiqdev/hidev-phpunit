@@ -1,17 +1,17 @@
 package:
-    name:           hidev-phpunit
-    namespace:      hidev\phpunit
-    headline:       HiDev PHPUnit
-    title:          PHPUnit plugin for HiDev
     type:           yii2-extension
+    name:           hidev-phpunit
+    title:          PHPUnit plugin for HiDev
+    headline:       HiDev PHPUnit
     keywords:       phpunit, hidev, plugin
-    year:           2015
+    namespace:      hidev\phpunit
     description:    |
         [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 
         This plugin enables [PHPUnit](https://phpunit.de/) support for HiDev.
 
         Provides usual PHPUnit operations:
+
         - generating phpunit.xml.dist
         - running tests
         - tries to create your tests compatible with Codeception
