@@ -11,6 +11,7 @@
 
 namespace hidev\phpunit\controllers;
 
+use hidev\base\File;
 use hidev\handlers\BaseHandler;
 use Yii;
 
@@ -19,9 +20,11 @@ use Yii;
  */
 class PhpunitController extends \hidev\controllers\CommonController
 {
-    protected $_before = ['phpunit.xml.dist'];
+    protected $_before = ['phpunit/bootstrap', 'phpunit.xml.dist'];
 
     protected $_version;
+
+    protected $_bootstrapFile;
 
     public $force;
     public $colors;
@@ -31,6 +34,26 @@ class PhpunitController extends \hidev\controllers\CommonController
     public function getConfiguration()
     {
         return $this->getGoal('phpunit.xml.dist');
+    }
+
+    public function getBootstrapFile()
+    {
+        if ($this->_bootstrapFile === null) {
+            $this->_bootstrapFile = Yii::createObject([
+                'class'     => File::class,
+                'template'  => 'phpunit/bootstrap.twig',
+                'path'      => 'tests/_bootstrap.php',
+            ]);
+        }
+
+        return $this->_bootstrapFile;
+    }
+
+    public function actionBootstrap()
+    {
+        if (!$this->getBootstrapFile()->exists()) {
+            $this->getBootstrapFile()->save();
+        }
     }
 
     public function actionMake()
