@@ -1,6 +1,11 @@
 hiqdev/hidev-phpunit changelog
 ------------------------------
 
+## 0.3.2 2016-02-19
+
+- Fixed release - repeated release to GitHub
+- Fixed package description
+
 ## 0.3.1 2016-02-19
 
 - Added creating `tests/_bootstrap.php` if non existing
