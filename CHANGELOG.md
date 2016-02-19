@@ -1,6 +1,10 @@
 hiqdev/hidev-phpunit changelog
 ------------------------------
 
+## 0.3.1 2016-02-19
+
+- Added creating `tests/_bootstrap.php` if non existing
+
 ## 0.3.0 2016-01-15
 
 - Added proper color option by checking version

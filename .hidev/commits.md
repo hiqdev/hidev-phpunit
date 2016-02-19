@@ -1,6 +1,12 @@
 hiqdev/hidev-phpunit commits history
 ------------------------------------
 
+## 0.3.1 2016-02-19
+
+- Added creating `tests/_bootstrap.php` if non existing
+    - 722ec60 2016-02-19 rehideved (sol@hiqdev.com)
+    - d718fe3 2016-02-19 + create `tests/_bootstrap.php` file if it doesnt exist (sol@hiqdev.com)
+
 ## 0.3.0 2016-01-15
 
 - Added proper color option by checking version
