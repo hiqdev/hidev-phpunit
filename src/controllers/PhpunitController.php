@@ -130,7 +130,7 @@ class PhpunitController extends \hidev\controllers\CommonController
 
     public function buildNamespace($dir = '')
     {
-        return $this->package->namespace . ($dir ? '\\' . strtr($dir, '/', '\\') : '');
+        return $this->takePackage()->namespace . ($dir ? '\\' . strtr($dir, '/', '\\') : '');
     }
 
     public function buildTestNamespace($dir = 'tests\\unit')
@@ -138,14 +138,14 @@ class PhpunitController extends \hidev\controllers\CommonController
         return $this->buildNamespace($dir);
     }
 
-    public function buildClass($file, $dir = '')
+    public function buildClass($file, $dir = '', $postfix = '')
     {
-        return $this->buildNamespace($dir) . '\\' . strtr($file, '/', '\\');
+        return $this->buildNamespace($dir) . '\\' . strtr($file, '/', '\\') . $postfix;
     }
 
-    public function buildTestClass($file, $dir = 'tests\\unit')
+    public function buildTestClass($file, $dir = 'tests\\unit', $postfix = 'Test')
     {
-        return $this->buildClass($file, $dir);
+        return $this->buildClass($file, $dir, $postfix);
     }
 
     public function buildPath($file, $dir = 'src', $prefix = '', $postfix = '')
