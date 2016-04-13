@@ -1,6 +1,16 @@
 hiqdev/hidev-phpunit commits history
 ------------------------------------
 
+## 0.3.4 2016-04-13
+
+- Fixed build with asset-packagist
+    - 111e1b0 2016-04-13 added require Yii.php to `tests/_bootstrap.php` (sol@hiqdev.com)
+    - b2c5f08 2016-04-13 fixed build with asset-packagist (sol@hiqdev.com)
+- Changed to `hidev-config` <- `extension-config` (sol@hiqdev.com)
+    - 1c2bc27 2016-04-13 redone `extension-config` to `hidev-config` (sol@hiqdev.com)
+- Fixed tests skeleton generation
+    - 4bea574 2016-04-13 fixed skelgen (sol@hiqdev.com)
+
 ## 0.3.3 2016-03-30
 
     - c41a2a8 2016-03-30 redoing to `extension-config` <- `yii2-extraconfig` (sol@hiqdev.com)

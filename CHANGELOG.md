@@ -1,6 +1,12 @@
 hiqdev/hidev-phpunit changelog
 ------------------------------
 
+## 0.3.4 2016-04-13
+
+- Fixed build with asset-packagist
+- Changed to `hidev-config` <- `extension-config` (sol@hiqdev.com)
+- Fixed tests skeleton generation
+
 ## 0.3.3 2016-03-30
 
 
