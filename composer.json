@@ -52,6 +52,8 @@
         }
     },
     "extra": {
-        "extension-config": "src/extension-config.php"
+        "extension-plugin": {
+            "hidev-config": "src/hidev-config.php"
+        }
     }
 }
