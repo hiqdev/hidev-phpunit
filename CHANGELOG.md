@@ -1,6 +1,10 @@
 hiqdev/hidev-phpunit changelog
 ------------------------------
 
+## Under development
+
+- Fixed `phpunit/gentest` to work when file given with extension
+
 ## 0.3.4 2016-04-13
 
 - Fixed build with asset-packagist

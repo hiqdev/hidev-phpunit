@@ -1,6 +1,11 @@
 hiqdev/hidev-phpunit commits history
 ------------------------------------
 
+## Under development
+
+- Fixed `phpunit/gentest` to work when file given with extension
+    - c84d9c0 2016-04-14 improved `phpunit/gentest` to work when file given with extension (sol@hiqdev.com)
+
 ## 0.3.4 2016-04-13
 
 - Fixed build with asset-packagist
