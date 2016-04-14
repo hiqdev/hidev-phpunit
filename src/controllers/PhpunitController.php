@@ -120,11 +120,22 @@ class PhpunitController extends \hidev\controllers\CommonController
         return $this->genSkel($file);
     }
 
+    public static function prepareFile($file)
+    {
+        return substr($file, -4) === '.php' ? substr($file, 0, -4) : $file;
+    }
+
     public function genSkel($file)
     {
+        $destPath = $this->buildTestPath($file);
+        $dir = dirname($destPath);
+        if (!file_exists($dir)) {
+            mkdir($dir, 0777, true);
+        }
+
         return $this->passthru('phpunit-skelgen', [
             'generate-test', '--bootstrap', 'tests/_bootstrap.php', '--',
-            $this->buildClass($file), $this->buildPath($file), $this->buildTestClass($file), $this->buildTestPath($file),
+            $this->buildClass($file), $this->buildPath($file), $this->buildTestClass($file), $destPath,
         ]);
     }
 
@@ -140,7 +151,7 @@ class PhpunitController extends \hidev\controllers\CommonController
 
     public function buildClass($file, $dir = '', $postfix = '')
     {
-        return $this->buildNamespace($dir) . '\\' . strtr($file, '/', '\\') . $postfix;
+        return $this->buildNamespace($dir) . '\\' . strtr(static::prepareFile($file), '/', '\\') . $postfix;
     }
 
     public function buildTestClass($file, $dir = 'tests\\unit', $postfix = 'Test')
@@ -150,7 +161,10 @@ class PhpunitController extends \hidev\controllers\CommonController
 
     public function buildPath($file, $dir = 'src', $prefix = '', $postfix = '')
     {
-        return $dir . DIRECTORY_SEPARATOR . $prefix . $file . $postfix . '.php';
+        return $dir . DIRECTORY_SEPARATOR . $prefix . static::prepareFile($file) . $postfix . '.php';
+
+        ### XXX getting absolute path, think if needed
+        #return strncmp($path, '/', 1) === 0 ? $path : Yii::getAlias("@prjdir/$path");
     }
 
     public function buildTestPath($file, $dir = 'tests/unit', $prefix = '', $postfix = 'Test')
