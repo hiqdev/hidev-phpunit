@@ -43,7 +43,7 @@
         }
     ],
     "require": {
-        "hiqdev/composer-extension-plugin": "^0.0.6"
+        "hiqdev/composer-extension-plugin": "~0.0"
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master"
