@@ -1,8 +1,9 @@
 hiqdev/hidev-phpunit changelog
 ------------------------------
 
-## Under development
+## 0.3.5 2016-04-15
 
+- Fixed `hiqdev/composer-extension-plugin` version constraint
 - Fixed `phpunit/gentest` to work when file given with extension
 
 ## 0.3.4 2016-04-13
