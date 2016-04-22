@@ -20,7 +20,7 @@ Provides usual PHPUnit operations:
 - running tests
 - tries to create your tests compatible with Codeception
 - enables coverage report
-- generating skeleton tests with [phpunit-skeleton-generator](https://github.com/sebastianbergmann/phpunit-skeleton-generator) (in progress)
+- generating skeleton tests with [phpunit-skeleton-generator](https://github.com/sebastianbergmann/phpunit-skeleton-generator)
 
 ## Installation
 

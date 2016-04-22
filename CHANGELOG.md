@@ -1,6 +1,10 @@
 hiqdev/hidev-phpunit changelog
 ------------------------------
 
+## 0.3.6 2016-04-22
+
+- Added: enabled `phpunit-skelgen` downloading
+
 ## 0.3.5 2016-04-15
 
 - Fixed `hiqdev/composer-extension-plugin` version constraint

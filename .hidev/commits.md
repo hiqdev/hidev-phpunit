@@ -1,6 +1,12 @@
 hiqdev/hidev-phpunit commits history
 ------------------------------------
 
+## 0.3.6 2016-04-22
+
+- Added: enabled `phpunit-skelgen` downloading
+    - 152416a 2016-04-22 moved plugins requiring into composer.json (sol@hiqdev.com)
+    - 8ed0463 2016-04-22 + `phpunit-skelgen` downloading options (sol@hiqdev.com)
+
 ## 0.3.5 2016-04-15
 
 - Fixed `hiqdev/composer-extension-plugin` version constraint
