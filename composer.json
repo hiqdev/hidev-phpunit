@@ -43,9 +43,17 @@
         }
     ],
     "require": {
-        "hiqdev/composer-extension-plugin": "~0.0"
+        "hiqdev/composer-extension-plugin": "<2.0"
     },
     "require-dev": {
+        "hiqdev/hidev-php": "dev-master",
+        "hiqdev/hidev-readme": "dev-master",
+        "hiqdev/hidev-travis": "dev-master",
+        "hiqdev/hidev-vendor": "dev-master",
+        "hiqdev/hidev-license": "dev-master",
+        "hiqdev/hidev-composer": "dev-master",
+        "hiqdev/hidev-scrutinizer": "dev-master",
+        "hiqdev/hidev-php-cs-fixer": "dev-master",
         "hiqdev/hidev": "dev-master"
     },
     "autoload": {
