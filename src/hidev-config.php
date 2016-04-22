@@ -24,6 +24,11 @@ return [
                     'version'  => '^4.8',
                     'download' => 'https://phar.phpunit.de/phpunit-old.phar',
                 ],
+                'phpunit-skelgen' => [
+                    'package'  => 'phpunit/phpunit-skeleton-generator',
+                    'version'  => '^2.0',
+                    'download' => 'https://phar.phpunit.de/phpunit-skelgen.phar',
+                ],
             ],
             'views' => [
                 '@hidev/phpunit/views',
