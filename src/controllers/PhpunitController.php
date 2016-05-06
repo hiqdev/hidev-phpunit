@@ -164,7 +164,7 @@ class PhpunitController extends \hidev\controllers\CommonController
         return $dir . DIRECTORY_SEPARATOR . $prefix . static::prepareFile($file) . $postfix . '.php';
 
         ### XXX getting absolute path, think if needed
-        #return strncmp($path, '/', 1) === 0 ? $path : Yii::getAlias("@prjdir/$path");
+        #return strncmp($path, '/', 1) === 0 ? $path : Yii::getAlias("@root/$path");
     }
 
     public function buildTestPath($file, $dir = 'tests/unit', $prefix = '', $postfix = 'Test')
