@@ -19,6 +19,6 @@ class PhpunitConfigController extends \hidev\controllers\FileController
     protected $_file = [
         'path'    => 'phpunit.xml.dist',
         'type'    => 'xml',
-        'minimal' => '@hidev/phpunit/minimal.xml.dist',
+        'minimal' => '@hidev/phpunit/config/minimal.xml.dist',
     ];
 }
