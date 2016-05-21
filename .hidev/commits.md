@@ -1,6 +1,16 @@
 hiqdev/hidev-phpunit commits history
 ------------------------------------
 
+## 0.4.0 2016-05-21
+
+- Changed: redone to `composer-config-plugin`
+    - 2fe5cd4 2016-05-21 redoing to composer-config-plugin (sol@hiqdev.com)
+    - b18127b 2016-05-21 redoing to composer-config-plugin (sol@hiqdev.com)
+- Changed to use `@root` alias
+    - 4d9dd0b 2016-05-06 changed @prjdir -> @root (sol@hiqdev.com)
+- Changed `tests/_bootstrap.php` template to look for `src/_bootstrap`
+    - 0edcab2 2016-04-29 changed `tests/_bootstrap.php` template to try to use `src/_bootstrap` (sol@hiqdev.com)
+
 ## 0.3.6 2016-04-22
 
 - Added: enabled `phpunit-skelgen` downloading

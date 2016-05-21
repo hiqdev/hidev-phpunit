@@ -1,6 +1,12 @@
 hiqdev/hidev-phpunit changelog
 ------------------------------
 
+## 0.4.0 2016-05-21
+
+- Changed: redone to `composer-config-plugin`
+- Changed to use `@root` alias
+- Changed `tests/_bootstrap.php` template to look for `src/_bootstrap`
+
 ## 0.3.6 2016-04-22
 
 - Added: enabled `phpunit-skelgen` downloading

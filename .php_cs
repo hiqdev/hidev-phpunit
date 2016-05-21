@@ -49,6 +49,5 @@ return Symfony\CS\Config\Config::create()
             ->notPath('vendor')
             ->notPath('runtime')
             ->notPath('web/assets')
-            ->notPath('tests/unit/UnitTester.php')
     )
 ;
