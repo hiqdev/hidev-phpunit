@@ -50,7 +50,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
 
     public function testGetConfiguration()
     {
-        // $this->assertInstanceOf(PhpunitXmlController::className(), $this->object->getConfiguration());
+        // $this->assertInstanceOf(PhpunitXmlController::class, $this->object->getConfiguration());
         $this->markTestIncomplete(
             'This test has not been implemented yet.'
         );
