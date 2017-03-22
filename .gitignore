@@ -1,6 +1,7 @@
 # hidev internals
 .hidev/composer.json
 .hidev/composer.lock
+.hidev/config-local.yml
 .hidev/vendor
 
 # IDE & OS files
@@ -24,6 +25,10 @@ composer.lock
 
 # phpunit generated files
 coverage.clover
+
+# Binaries
+chkipper.phar
+ocular.phar
 
 # PHARs
 composer.phar

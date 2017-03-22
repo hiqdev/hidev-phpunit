@@ -1,61 +1,44 @@
-hiqdev/hidev-phpunit changelog
-------------------------------
 
-## 0.4.0 2016-05-21
+## [Under development]
 
-- Changed: redone to `composer-config-plugin`
-- Changed to use `@root` alias
-- Changed `tests/_bootstrap.php` template to look for `src/_bootstrap`
+## [0.4.0] - 2016-05-21
 
-## 0.3.6 2016-04-22
+## [0.3.6] - 2016-04-22
 
-- Added: enabled `phpunit-skelgen` downloading
+## [0.3.5] - 2016-04-15
 
-## 0.3.5 2016-04-15
+## [0.3.4] - 2016-04-13
 
-- Fixed `hiqdev/composer-extension-plugin` version constraint
-- Fixed `phpunit/gentest` to work when file given with extension
+## [0.3.3] - 2016-03-30
 
-## 0.3.4 2016-04-13
+## [0.3.2] - 2016-02-19
 
-- Fixed build with asset-packagist
-- Changed to `hidev-config` <- `extension-config` (sol@hiqdev.com)
-- Fixed tests skeleton generation
+## [0.3.1] - 2016-01-15
 
-## 0.3.3 2016-03-30
+## [0.2.0] - 2015-12-23
 
+## [0.0.2] - 2015-11-26
 
-## 0.3.2 2016-02-19
+## [0.0.1] - 2015-11-24
 
-- Fixed release - repeated release to GitHub
-- Fixed package description
+## [Development started] - 2015-11-22
 
-## 0.3.1 2016-02-19
-
-- Added creating `tests/_bootstrap.php` if non existing
-
-## 0.3.0 2016-01-15
-
-- Added proper color option by checking version
-- Fixed tests
-- Added phpunit download link
-- Changed: redone goals -> controllers
-- Changed: redone with yii2-extraconfig
-
-## 0.2.0 2015-12-23
-
-- Added Travis `after_script` to upload coverage to Scrutinizer
-- Added `colors` config option
-
-## 0.0.2 2015-11-26
-
-- Added coverage reporting
-- Added `gentest` and `genfake` actions
-- Added Travis CI integration
-
-## 0.0.1 2015-11-24
-
-- Added basics
-
-## Development started 2015-11-22
-
+[@hiqsol]: https://github.com/hiqsol
+[sol@hiqdev.com]: https://github.com/hiqsol
+[@SilverFire]: https://github.com/SilverFire
+[d.naumenko.a@gmail.com]: https://github.com/SilverFire
+[@tafid]: https://github.com/tafid
+[andreyklochok@gmail.com]: https://github.com/tafid
+[@BladeRoot]: https://github.com/BladeRoot
+[bladeroot@gmail.com]: https://github.com/BladeRoot
+[Under development]: https://github.com/hiqdev/hidev-phpunit/compare/0.4.0...HEAD
+[0.4.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.6...0.4.0
+[0.3.6]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.5...0.3.6
+[0.3.5]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.4...0.3.5
+[0.3.4]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.3...0.3.4
+[0.3.3]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.2...0.3.3
+[0.3.2]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.1...0.3.2
+[0.3.1]: https://github.com/hiqdev/hidev-phpunit/compare/0.2.0...0.3.1
+[0.2.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.0.2...0.2.0
+[0.0.2]: https://github.com/hiqdev/hidev-phpunit/compare/0.0.1...0.0.2
+[0.0.1]: https://github.com/hiqdev/hidev-phpunit/releases/tag/0.0.1
