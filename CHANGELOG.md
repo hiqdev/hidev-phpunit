@@ -1,7 +1,7 @@
 hiqdev/hidev-phpunit commits history
 ------------------------------------
 
-## [Under development]
+## [0.5.0] - 2017-03-22
 
 - Added PHPUnit 6 compatibility ([@SilverFire])
 
@@ -82,3 +82,4 @@ hiqdev/hidev-phpunit commits history
 [0.2.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.0.2...0.2.0
 [0.0.2]: https://github.com/hiqdev/hidev-phpunit/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/hiqdev/hidev-phpunit/releases/tag/0.0.1
+[0.5.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.4.0...0.5.0

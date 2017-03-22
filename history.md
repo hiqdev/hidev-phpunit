@@ -1,9 +1,10 @@
 hiqdev/hidev-phpunit commits history
 ------------------------------------
 
-## [Under development]
+## [0.5.0] - 2017-03-22
 
 - Added PHPUnit 6 compatibility
+    - [fd61fff] 2017-03-22 CHANGELOG updated [@SilverFire]
     - [1b1abbc] 2017-03-22 Marked compatibility classes as abstract [@SilverFire]
     - [61e6ccb] 2017-03-22 csfixed [@SilverFire]
     - [db4ba64] 2017-03-22 Added PHPUnit 6 compatibility [@SilverFire]
@@ -172,3 +173,5 @@ hiqdev/hidev-phpunit commits history
 [0.2.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.0.2...0.2.0
 [0.0.2]: https://github.com/hiqdev/hidev-phpunit/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/hiqdev/hidev-phpunit/releases/tag/0.0.1
+[fd61fff]: https://github.com/hiqdev/hidev-phpunit/commit/fd61fff
+[0.5.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.4.0...0.5.0
