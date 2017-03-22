@@ -1,12 +1,11 @@
 <?php
-
-/*
- * PHPUnit plugin for HiDev
+/**
+ * PHPUnit plugin for HiDev.
  *
  * @link      https://github.com/hiqdev/hidev-phpunit
  * @package   hidev-phpunit
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2015-2017, HiQDev (http://hiqdev.com/)
  */
 
 namespace hidev\phpunit\controllers;
@@ -163,8 +162,8 @@ class PhpunitController extends \hidev\controllers\CommonController
     {
         return $dir . DIRECTORY_SEPARATOR . $prefix . static::prepareFile($file) . $postfix . '.php';
 
-        ### XXX getting absolute path, think if needed
-        #return strncmp($path, '/', 1) === 0 ? $path : Yii::getAlias("@root/$path");
+        //## XXX getting absolute path, think if needed
+        //return strncmp($path, '/', 1) === 0 ? $path : Yii::getAlias("@root/$path");
     }
 
     public function buildTestPath($file, $dir = 'tests/unit', $prefix = '', $postfix = 'Test')

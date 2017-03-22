@@ -1,12 +1,11 @@
 <?php
-
-/*
- * PHPUnit plugin for HiDev
+/**
+ * PHPUnit plugin for HiDev.
  *
  * @link      https://github.com/hiqdev/hidev-phpunit
  * @package   hidev-phpunit
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2015-2017, HiQDev (http://hiqdev.com/)
  */
 
 namespace hidev\phpunit\tests\unit\controllers;
@@ -34,7 +33,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::init
+     * @covers \hidev\phpunit\controllers\PhpunitController::init
      *
      * @todo   Implement testInit().
      */
@@ -65,7 +64,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::actionRun
+     * @covers \hidev\phpunit\controllers\PhpunitController::actionRun
      *
      * @todo   Implement testActionRun().
      */
@@ -78,7 +77,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::actionGenfake
+     * @covers \hidev\phpunit\controllers\PhpunitController::actionGenfake
      *
      * @todo   Implement testActionGenfake().
      */
@@ -91,7 +90,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::genFake
+     * @covers \hidev\phpunit\controllers\PhpunitController::genFake
      *
      * @todo   Implement testGenFake().
      */
@@ -104,7 +103,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::actionGentest
+     * @covers \hidev\phpunit\controllers\PhpunitController::actionGentest
      *
      * @todo   Implement testActionGentest().
      */
@@ -117,7 +116,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::genSkel
+     * @covers \hidev\phpunit\controllers\PhpunitController::genSkel
      *
      * @todo   Implement testGenSkel().
      */
@@ -130,7 +129,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::buildNamespace
+     * @covers \hidev\phpunit\controllers\PhpunitController::buildNamespace
      *
      * @todo   Implement testBuildNamespace().
      */
@@ -143,7 +142,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::buildTestNamespace
+     * @covers \hidev\phpunit\controllers\PhpunitController::buildTestNamespace
      *
      * @todo   Implement testBuildTestNamespace().
      */
@@ -156,7 +155,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::buildClass
+     * @covers \hidev\phpunit\controllers\PhpunitController::buildClass
      *
      * @todo   Implement testBuildClass().
      */
@@ -169,7 +168,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::buildTestClass
+     * @covers \hidev\phpunit\controllers\PhpunitController::buildTestClass
      *
      * @todo   Implement testBuildTestClass().
      */
@@ -182,7 +181,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::buildPath
+     * @covers \hidev\phpunit\controllers\PhpunitController::buildPath
      *
      * @todo   Implement testBuildPath().
      */
@@ -195,7 +194,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::buildTestPath
+     * @covers \hidev\phpunit\controllers\PhpunitController::buildTestPath
      *
      * @todo   Implement testBuildTestPath().
      */
@@ -208,7 +207,7 @@ class PhpunitControllerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers hidev\phpunit\controllers\PhpunitController::buildFakePath
+     * @covers \hidev\phpunit\controllers\PhpunitController::buildFakePath
      *
      * @todo   Implement testBuildFakePath().
      */
