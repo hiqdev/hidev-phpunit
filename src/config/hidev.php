@@ -9,28 +9,41 @@
  */
 
 return [
-    'components' =>  [
-        'config' => [
+    'controllerMap' =>  [
+        'phpunit' => [
+            'class' => \hidev\phpunit\console\PhpunitController::class,
+        ],
+        'phpunit.xml' => [
+            'class' => \hidev\phpunit\console\PhpunitXmlController::class,
+        ],
+        'phpunit.xml.dist' => [
+            'class' => \hidev\phpunit\console\PhpunitXmlController::class,
+        ],
+    ],
+    'components' => [
+        'phpunit' => [
+            'class' => \hidev\phpunit\components\Phpunit::class,
+        ],
+        'phpunit.xml' => [
+            'class' => \hidev\phpunit\components\PhpunitXml::class,
+        ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@hidev/views' => ['@hidev/phpunit/views'],
+                ],
+            ],
+        ],
+        'binaries' => [
             'phpunit' => [
-                'class' => 'hidev\phpunit\controllers\PhpunitController',
+                'package'  => 'phpunit/phpunit',
+                'version'  => '^4.8',
+                'download' => 'https://phar.phpunit.de/phpunit-old.phar',
             ],
-            'phpunit.xml.dist' => [
-                'class' => 'hidev\phpunit\controllers\PhpunitConfigController',
-            ],
-            'binaries' => [
-                'phpunit' => [
-                    'package'  => 'phpunit/phpunit',
-                    'version'  => '^4.8',
-                    'download' => 'https://phar.phpunit.de/phpunit-old.phar',
-                ],
-                'phpunit-skelgen' => [
-                    'package'  => 'phpunit/phpunit-skeleton-generator',
-                    'version'  => '^2.0',
-                    'download' => 'https://phar.phpunit.de/phpunit-skelgen.phar',
-                ],
-            ],
-            'views' => [
-                '@hidev/phpunit/views',
+            'phpunit-skelgen' => [
+                'package'  => 'phpunit/phpunit-skeleton-generator',
+                'version'  => '^2.0',
+                'download' => 'https://phar.phpunit.de/phpunit-skelgen.phar',
             ],
         ],
     ],

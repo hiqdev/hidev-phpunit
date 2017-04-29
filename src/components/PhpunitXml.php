@@ -8,12 +8,13 @@
  * @copyright Copyright (c) 2015-2017, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\phpunit\controllers;
+namespace hidev\phpunit\components;
 
 /**
- * Goal for phpunit.xml.dist config file.
+ * `phpunit.xml` config file.
+ * @author Andrii Vasyliev <sol@hiqdev.com>
  */
-class PhpunitConfigController extends \hidev\controllers\FileController
+class PhpunitXml extends \hidev\components\ConfigFile
 {
     protected $_file = [
         'path'    => 'phpunit.xml.dist',
