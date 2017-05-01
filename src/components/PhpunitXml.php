@@ -14,7 +14,7 @@ namespace hidev\phpunit\components;
  * `phpunit.xml` config file.
  * @author Andrii Vasyliev <sol@hiqdev.com>
  */
-class PhpunitXml extends \hidev\components\ConfigFile
+class PhpunitXml extends \hidev\base\ConfigFile
 {
     protected $_file = [
         'path'    => 'phpunit.xml.dist',

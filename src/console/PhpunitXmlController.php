@@ -18,6 +18,6 @@ class PhpunitXmlController extends \hidev\base\Controller
 {
     public function actionIndex()
     {
-        $this->take('phpunit.xml')->actionSave();
+        $this->take('phpunit.xml')->save();
     }
 }
