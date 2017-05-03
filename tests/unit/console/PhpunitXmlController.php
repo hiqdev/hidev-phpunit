@@ -8,23 +8,23 @@
  * @copyright Copyright (c) 2015-2017, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\phpunit\tests\unit\controllers;
+namespace hidev\phpunit\tests\unit\console;
 
-use hidev\phpunit\controllers\PhpunitConfigController;
+use hidev\phpunit\console\PhpunitXmlController;
 
 /**
- * Test for PhpunitConfigController.
+ * Test for PhpunitXmlController.
  */
-class PhpunitConfigControllerTest extends \PHPUnit_Framework_TestCase
+class PhpunitXmlControllerTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var PhpunitConfigController
+     * @var PhpunitXmlController
      */
     protected $object;
 
     protected function setUp()
     {
-        $this->object = new PhpunitConfigController('phpunit.xml.dist', null);
+        $this->object = new PhpunitXmlController('phpunit.xml.dist', null);
     }
 
     protected function tearDown()
@@ -33,6 +33,5 @@ class PhpunitConfigControllerTest extends \PHPUnit_Framework_TestCase
 
     public function testInit()
     {
-        $this->assertSame('xml', $this->object->file->type);
     }
 }
