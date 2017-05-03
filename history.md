@@ -1,5 +1,13 @@
-hiqdev/hidev-phpunit commits history
-------------------------------------
+# hiqdev/hidev-phpunit
+
+## [0.6.0] - 2017-05-03
+
+- Redone to new hidev
+    - [5dd2188] 2017-05-03 doc [@hiqsol]
+    - [fe555d3] 2017-05-03 fixed tests [@hiqsol]
+    - [75dc80e] 2017-05-03 csfixed [@hiqsol]
+    - [0260bed] 2017-05-01 moved ConfigFile to `hidev\base` [@hiqsol]
+    - [b002387] 2017-04-29 redoing for new hidev [@hiqsol]
 
 ## [0.5.0] - 2017-03-22
 
@@ -161,7 +169,7 @@ hiqdev/hidev-phpunit commits history
 [1b1abbc]: https://github.com/hiqdev/hidev-phpunit/commit/1b1abbc
 [61e6ccb]: https://github.com/hiqdev/hidev-phpunit/commit/61e6ccb
 [db4ba64]: https://github.com/hiqdev/hidev-phpunit/commit/db4ba64
-[Under development]: https://github.com/hiqdev/hidev-phpunit/compare/0.4.0...HEAD
+[Under development]: https://github.com/hiqdev/hidev-phpunit/compare/0.5.0...HEAD
 [0.4.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.6...0.4.0
 [0.3.6]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.5...0.3.6
 [0.3.5]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.4...0.3.5
@@ -175,3 +183,9 @@ hiqdev/hidev-phpunit commits history
 [0.0.1]: https://github.com/hiqdev/hidev-phpunit/releases/tag/0.0.1
 [fd61fff]: https://github.com/hiqdev/hidev-phpunit/commit/fd61fff
 [0.5.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.4.0...0.5.0
+[fe555d3]: https://github.com/hiqdev/hidev-phpunit/commit/fe555d3
+[75dc80e]: https://github.com/hiqdev/hidev-phpunit/commit/75dc80e
+[0260bed]: https://github.com/hiqdev/hidev-phpunit/commit/0260bed
+[b002387]: https://github.com/hiqdev/hidev-phpunit/commit/b002387
+[5dd2188]: https://github.com/hiqdev/hidev-phpunit/commit/5dd2188
+[0.6.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.5.0...0.6.0
