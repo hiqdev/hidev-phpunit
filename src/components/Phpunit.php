@@ -1,6 +1,6 @@
 <?php
 /**
- * PHPUnit plugin for HiDev.
+ * PHPUnit plugin for HiDev
  *
  * @link      https://github.com/hiqdev/hidev-phpunit
  * @package   hidev-phpunit
@@ -11,7 +11,6 @@
 namespace hidev\phpunit\components;
 
 use hidev\base\File;
-use hidev\handlers\BaseHandler;
 use Yii;
 
 /**
@@ -77,5 +76,4 @@ class Phpunit extends \hidev\base\Component
 
         return explode(' ', $lines[0], 3)[1];
     }
-
 }
