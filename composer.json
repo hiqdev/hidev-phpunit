@@ -1,7 +1,7 @@
 {
     "name": "hiqdev/hidev-phpunit",
     "type": "yii2-extension",
-    "description": "PHPUnit plugin for HiDev",
+    "description": "HiDev plugin for PHPUnit",
     "keywords": [
         "phpunit",
         "hidev",

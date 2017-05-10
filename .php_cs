@@ -1,7 +1,7 @@
 <?php
 
 $header = <<<EOF
-PHPUnit plugin for HiDev
+HiDev plugin for PHPUnit
 
 @link      https://github.com/hiqdev/hidev-phpunit
 @package   hidev-phpunit
@@ -26,6 +26,7 @@ return PhpCsFixer\Config::create()
         ],
         'concat_space'                               =>  ['spacing' => 'one'],
         'array_syntax'                               =>  ['syntax' => 'short'],
+        'phpdoc_no_alias_tag'                        =>  ['replacements' => ['type' => 'var']],
         'blank_line_before_return'                   =>  false,
         'phpdoc_align'                               =>  false,
         'phpdoc_scalar'                              =>  false,

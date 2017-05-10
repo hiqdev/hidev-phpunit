@@ -1,6 +1,6 @@
 # HiDev PHPUnit
 
-**PHPUnit plugin for HiDev**
+**HiDev plugin for PHPUnit**
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-phpunit/v/stable)](https://packagist.org/packages/hiqdev/hidev-phpunit)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-phpunit/downloads)](https://packagist.org/packages/hiqdev/hidev-phpunit)
@@ -15,9 +15,8 @@ This plugin enables [PHPUnit] support for HiDev.
 
 Provides usual PHPUnit operations:
 
-- generating phpunit.xml.dist and tests/_bootstrap.php
+- generating `phpunit.xml.dist` and `tests/_bootstrap.php`
 - running tests
-- tries to create your tests compatible with Codeception
 - enables coverage report
 - generating skeleton tests with [phpunit-skeleton-generator](https://github.com/sebastianbergmann/phpunit-skeleton-generator)
 

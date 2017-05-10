@@ -1,6 +1,6 @@
 <?php
 /**
- * PHPUnit plugin for HiDev
+ * HiDev plugin for PHPUnit.
  *
  * @link      https://github.com/hiqdev/hidev-phpunit
  * @package   hidev-phpunit
