@@ -1,5 +1,9 @@
 # hiqdev/hidev-phpunit
 
+## [0.6.1] - 2017-05-10
+
+- Renamed `File` <- ConfigFile ([@hiqsol])
+
 ## [0.6.0] - 2017-05-03
 
 - Redone to new hidev ([@hiqsol])
@@ -73,7 +77,7 @@
 [andreyklochok@gmail.com]: https://github.com/tafid
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
-[Under development]: https://github.com/hiqdev/hidev-phpunit/compare/0.5.0...HEAD
+[Under development]: https://github.com/hiqdev/hidev-phpunit/compare/0.6.0...HEAD
 [0.4.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.6...0.4.0
 [0.3.6]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.5...0.3.6
 [0.3.5]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.4...0.3.5
@@ -87,3 +91,4 @@
 [0.0.1]: https://github.com/hiqdev/hidev-phpunit/releases/tag/0.0.1
 [0.5.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.4.0...0.5.0
 [0.6.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.5.0...0.6.0
+[0.6.1]: https://github.com/hiqdev/hidev-phpunit/compare/0.6.0...0.6.1

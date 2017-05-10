@@ -1,5 +1,11 @@
 # hiqdev/hidev-phpunit
 
+## [0.6.1] - 2017-05-10
+
+- Renamed `File` <- ConfigFile
+    - [5eea4ac] 2017-05-10 csfixed [@hiqsol]
+    - [36644b1] 2017-05-08 renamed `File` <- ConfigFile [@hiqsol]
+
 ## [0.6.0] - 2017-05-03
 
 - Redone to new hidev
@@ -169,7 +175,7 @@
 [1b1abbc]: https://github.com/hiqdev/hidev-phpunit/commit/1b1abbc
 [61e6ccb]: https://github.com/hiqdev/hidev-phpunit/commit/61e6ccb
 [db4ba64]: https://github.com/hiqdev/hidev-phpunit/commit/db4ba64
-[Under development]: https://github.com/hiqdev/hidev-phpunit/compare/0.5.0...HEAD
+[Under development]: https://github.com/hiqdev/hidev-phpunit/compare/0.6.0...HEAD
 [0.4.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.6...0.4.0
 [0.3.6]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.5...0.3.6
 [0.3.5]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.4...0.3.5
@@ -189,3 +195,6 @@
 [b002387]: https://github.com/hiqdev/hidev-phpunit/commit/b002387
 [5dd2188]: https://github.com/hiqdev/hidev-phpunit/commit/5dd2188
 [0.6.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.5.0...0.6.0
+[5eea4ac]: https://github.com/hiqdev/hidev-phpunit/commit/5eea4ac
+[36644b1]: https://github.com/hiqdev/hidev-phpunit/commit/36644b1
+[0.6.1]: https://github.com/hiqdev/hidev-phpunit/compare/0.6.0...0.6.1
