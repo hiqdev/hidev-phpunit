@@ -1,5 +1,10 @@
 # hiqdev/hidev-phpunit
 
+## [0.6.2] - 2017-05-18
+
+- Fixed scrutinizer problem with removed phpunit 6 compatibility hack
+    - [6ff7bbf] 2017-05-18 removed phpunit 6 compatibility [@hiqsol]
+
 ## [0.6.1] - 2017-05-10
 
 - Renamed `File` <- ConfigFile
@@ -175,7 +180,7 @@
 [1b1abbc]: https://github.com/hiqdev/hidev-phpunit/commit/1b1abbc
 [61e6ccb]: https://github.com/hiqdev/hidev-phpunit/commit/61e6ccb
 [db4ba64]: https://github.com/hiqdev/hidev-phpunit/commit/db4ba64
-[Under development]: https://github.com/hiqdev/hidev-phpunit/compare/0.6.0...HEAD
+[Under development]: https://github.com/hiqdev/hidev-phpunit/compare/0.6.1...HEAD
 [0.4.0]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.6...0.4.0
 [0.3.6]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.5...0.3.6
 [0.3.5]: https://github.com/hiqdev/hidev-phpunit/compare/0.3.4...0.3.5
@@ -198,3 +203,5 @@
 [5eea4ac]: https://github.com/hiqdev/hidev-phpunit/commit/5eea4ac
 [36644b1]: https://github.com/hiqdev/hidev-phpunit/commit/36644b1
 [0.6.1]: https://github.com/hiqdev/hidev-phpunit/compare/0.6.0...0.6.1
+[6ff7bbf]: https://github.com/hiqdev/hidev-phpunit/commit/6ff7bbf
+[0.6.2]: https://github.com/hiqdev/hidev-phpunit/compare/0.6.1...0.6.2
