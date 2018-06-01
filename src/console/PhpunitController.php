@@ -1,11 +1,11 @@
 <?php
 /**
- * HiDev plugin for PHPUnit.
+ * HiDev plugin for PHPUnit
  *
  * @link      https://github.com/hiqdev/hidev-phpunit
  * @package   hidev-phpunit
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2015-2017, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2015-2018, HiQDev (http://hiqdev.com/)
  */
 
 namespace hidev\phpunit\console;
@@ -52,6 +52,7 @@ class PhpunitController extends \hidev\base\Controller
         $path = $this->buildFakePath($file);
         if (!$this->force && file_exists($path)) {
             Yii::warning("already exists: $path");
+
             return 1;
         }
 
@@ -76,6 +77,7 @@ class PhpunitController extends \hidev\base\Controller
         $path = $this->buildTestPath($file);
         if (!$this->force && file_exists($path)) {
             Yii::warning("already exists: $path");
+
             return 1;
         }
 
