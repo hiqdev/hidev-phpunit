@@ -1,0 +1,28 @@
+app:
+    controllerMap:
+        phpunit:
+            __class: hidev\phpunit\console\PhpunitController
+        phpunit.xml:
+            __class: hidev\phpunit\console\PhpunitXmlController
+        phpunit.xml.dist:
+            __class: hidev\phpunit\console\PhpunitXmlController
+
+phpunit:
+    __class: hidev\phpunit\components\Phpunit
+phpunit.xml:
+    __class: hidev\phpunit\components\PhpunitXml
+
+binaries:
+    phpunit:
+        package:    phpunit/phpunit
+        version:    '^4.8'
+        download:   https://phar.phpunit.de/phpunit-old.phar
+    phpunit-skelgen:
+        package:    phpunit/phpunit-skeleton-generator
+        version:    '^2.0'
+        download:   https://phar.phpunit.de/phpunit-skelgen.phar
+
+theme:
+    pathMap:
+        '@hidev/views'
+            - '@hidev/phpunit/views'
