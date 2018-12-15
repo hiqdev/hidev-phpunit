@@ -66,7 +66,7 @@
             "1.0": "1.0.x-dev"
         },
         "config-plugin": {
-            "hidev": "src/config/hidev.php"
+            "hidev": "config/hidev.yml"
         }
     },
     "repositories": [

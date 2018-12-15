@@ -24,5 +24,5 @@ binaries:
 
 theme:
     pathMap:
-        '@hidev/views'
+        '@hidev/views':
             - '@hidev/phpunit/views'
