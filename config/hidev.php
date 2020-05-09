@@ -47,4 +47,7 @@ return [
             ],
         ],
     ],
+    'aliases' => [
+        '@hidev/phpunit' => dirname(__DIR__) . '/src',
+    ],
 ];
