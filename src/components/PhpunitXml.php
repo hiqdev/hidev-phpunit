@@ -19,6 +19,6 @@ class PhpunitXml extends \hidev\components\File
     protected $_file = [
         'path'    => 'phpunit.xml.dist',
         'type'    => 'xml',
-        'minimal' => '@hidev/phpunit/config/minimal.xml.dist',
+        'minimal' => __DIR__ . '/../../config/minimal.xml.dist',
     ];
 }
